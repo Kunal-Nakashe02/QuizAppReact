@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background-color: #9fc9e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+
+  button:hover {
+    background-color: #e06214;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button svg {
+    margin-right: 5px;
+  }
+  .btn{
+    position: relative;
+   top:150px;
+   right:170px;
+    background-color: #0a6f0a;
+    height: 50px;
+    width: 110px;
+    border: 5px solid red;
+  
+  }
+
+
+* {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+}
+
+
+
+.quiz {
+  background-color: #134ea6;
+  width: 450px;
+  min-height: 200px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content:center;
+}
+
+.score-section {
+  display: flex;
+  font-size: 35px;
+  align-items: center;
+}
+
+.question {
+  width: 100%;
+  position: relative;
+}
+
+.quest-count {
+  margin-bottom: 20px;
+}
+
+.quest-count span {
+  font-size: 30px;
+}
+
+.question-text {
+  margin-bottom: 15px;
+  line-height: 1.5em;
+}
+
+
+.answer {
+  padding: 3px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e8865f;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid #24e44a;
+  cursor: pointer;
+}
+
